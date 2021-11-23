@@ -1,0 +1,251 @@
+@import url('./fail/fonts/fonts.css');
+
+:root{
+    --green: #68bf3b;
+    --sale: #68cd16;
+    --grstart: #6ad017;
+    --grend: #3d8802;
+    --txt: #a6a6a6;
+
+}
+
+/* header{
+    background: url('./fail/foto/header_bg.jpg') no-repeat center center / cover;
+    padding: 30px 0 274px 0;
+}
+.contacts_header a{
+    font-family: var(--mregular);
+    font-size: 24px;
+    color: #ffff;
+    line-height: 24px;
+    margin-right: 51px;
+    text-decoration: none;
+}
+.contacts_header button{
+    padding: 17px 40px 17px 40px;
+    border: none;
+    border-radius: 37px;
+    background-color: var(--grstart);
+    font-family: var(--mregular);
+    line-height: 14px;
+    color: #fff;
+}
+.header_logo{
+    color: #ffff;
+    text-decoration: none;
+}
+.azamat{
+    margin-top: 174px;
+}
+.azamat p:first-child{
+    color: #ffff;
+    font-size: 18px;
+    font-family: var(--mregular);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.azamat h1{
+    color: #fff;
+    font-family: var(--mblack);
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.azamat p:nth-child(3){
+    color: #fff;
+    text-transform: uppercase;
+    font-family: var(--mblack);
+    font-size: 18px;
+}
+.azamat a{
+    padding: 17px 40px 17px 40px;
+    color: #fff;
+    background-color: var(--grstart);
+    border-radius: 25px;
+    text-decoration: none;
+} */
+header{
+    background: url('./fail/foto/header_bg.jpg') no-repeat center center /cover;
+    padding: 30px 0 247px 0;
+
+}
+.contacts_header a{
+    font-family: var(--mregular);
+    font-size: 24px;
+    color:#fff;
+    line-height: 24px;
+    margin-right: 51px;
+    text-decoration: none;
+}
+.contacts_header button{
+    padding: 17px 40px 17px 40px;
+    border: none;
+    border-radius:37px;
+    background-color: var(--grstart);
+    color: #fff;
+    font-family: var(--mregular);
+    line-height: 14px;
+    transition: all .2s;
+    
+}
+.header_logo{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--mbold);
+}
+.azamat{
+    margin-top: 174px;
+}
+.azamat p:first-child{
+    color: #fff;
+    font-size: 18px;
+    font-family: var(--mregular);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.azamat h1{
+    color: #fff;
+    font-family: var(--mblack);
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.azamat p:nth-child(3){
+    color: #fff;
+    text-transform: uppercase;
+    font-family: var(--mblack);
+    font-size: 18px;
+    margin-bottom: 53px;
+
+}
+.azamat a{
+    padding: 17px 42px 17px 42px;
+    color: #fff;
+    background-color: var(--grstart);
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 62px;
+}
+.totti{
+    margin-top: 105px;
+    
+}
+.totti_right p{
+    margin-top: 60px;
+    font-family: var(--mregular);
+    font-size: 18px;
+    color: var(--txt);
+    line-height: 40px;
+}
+.totti_right h4{
+    font-family: var(--mbold);
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--sale);
+    text-transform: uppercase;
+}
+.totti_right{
+    margin-top: 27px;
+}
+.toti-sign p{
+    margin-right: 66px;
+    
+}
+.combo{
+    background: url('./fail/foto/Слой 1.png') no-repeat;
+    height: 250px; 
+    padding: 30px;  
+    
+}
+.thth{
+    margin-top: 40px;
+}
+.combo span{
+    padding: 15px 8px 15px 7px;
+    color: #fff;
+    background-color: var(--green);
+    border-radius: 50px;
+    
+}
+.azamat_pizza h1{
+    margin-top: 85px;
+    color: #e1f5d0;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.roni h2{
+    color: var(--txt) ;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 28px;
+}
+.pizza p{
+    color: var(--txt);
+    font-family: var(--mregular);
+    font-size: 14px;
+    line-height: 10px;
+}
+.pizza p:first-child{
+    margin-top: 30px;
+}
+.main_menu p{
+    color: var(--txt);
+    margin-bottom: 50px;
+}
+.main_menu a{
+    padding: 17px 38px 17px 38px;
+    background-color: var(--sale);
+    border-radius: 23px;
+    color: #fff;
+    text-decoration: none;
+}
+.main_menu span{
+    font-weight: 700;
+    font-size: 30px;
+}
+.mani_person p{
+    color: var(--txt);
+    font-family: var(--mregular);
+    font-size: 14px;
+    
+}
+.mani_person{
+    margin-top: 145px;
+}
+.mani_person img{
+    width: 350px;
+}
+.mani_person h4 {
+    margin-top: 29px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--txt);
+}
+footer{
+    background-color: #060503;
+    padding-top: 30px;
+    margin-top: 100px;
+}
+.form p{
+    color: #fff;
+    font-size: 16px;
+    font-family: var(--mthin);
+    font-weight: 100;
+    padding: 50px 0 55px 0;
+    margin: 0 !important;
+}
+.contacts_header button:hover{
+    background-color: var(--grend);
+}
+.main_menu{
+    margin-top: 25px;
+}
+.toti-sign{
+    justify-content: center;
+}
